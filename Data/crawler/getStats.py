@@ -88,15 +88,15 @@ for word,freq in word_frequencies.items():
 averagePages=totalPages/total
 averageMoves=totalMoves/total
 
-print "Total Games",total
-print "More than One Long Games",moreThanOneLong
-print "Total Pages",totalPages
-print "Average Pages",averagePages
-print "Total Moves",totalMoves
-print "Long Moves",longMoves
-print "Average Moves",averageMoves
-print "Word Types",len(wids)
-print "Rare Words",len(rareWords)
-print "Word Tokens",totalTokens
-print "Average Comment Length",(totalTokens+0.0)/(totalMoves+0.0)
-print "Entropy of Freq",entropy
+print("Total Games",total)
+print("More than One Long Games",moreThanOneLong)
+print("Total Pages",totalPages)
+print("Average Pages",averagePages)
+print("Total Moves",totalMoves)
+print("Long Moves",longMoves)
+print("Average Moves",averageMoves)
+print("Word Types",len(wids))
+print("Rare Words",len(rareWords))
+print("Word Tokens",totalTokens)
+print("Average Comment Length",(totalTokens+0.0)/(totalMoves+0.0))
+print("Entropy of Freq",entropy)
