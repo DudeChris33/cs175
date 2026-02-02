@@ -1,7 +1,7 @@
 import random
 import sys
 
-print "8888------------" 
+print("8888------------")
 
 NO_OF_CLASSES=7  #Quality, Alternate,Expected,Long-Term,State,Describe,Others
 QUALITY,ALTERNATE,EXPECTED,LONG_TERM,STATE,DESCRIBE,OTHERS=0,1,2,3,4,5,6
@@ -84,10 +84,10 @@ if __name__=="__main__":
                 if aspectIndex not in labelDistribution:
                     labelDistribution[aspectIndex]=0
                 labelDistribution[aspectIndex]+=1
-    print labelDistribution
+    print(labelDistribution)
 
     outFile=open(sys.argv[1]+".pseudoLabels","w")
-    print "outfile = ",outFile
+    print("outfile = ",outFile)
 
     for indexedLine in indexedLines:
         outFile.write(str(indexedLine[1])+" |||| "+str(indexedLine[2])+"\n")

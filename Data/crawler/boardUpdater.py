@@ -22,17 +22,17 @@ initDict['white_king']=['e1']
 initDict['white_pawn']=['a2','b2','c2','d2','e2','f2','g2','h2']
 initDict[""]=[]
 for row in ['a','b','c','d','e','f','g','h']:
-    for col in range(3,7):
-        initDict[""].append(row+str(col))
+	for col in range(3,7):
+		initDict[""].append(row+str(col))
 
 
 for key,val in initDict.items():
-    for valElem in val:
-        newDict={}
-        if key!="":
-            newDict['piece']=key
-        newDict['location']=valElem
-        startState.append(newDict)
+	for valElem in val:
+		newDict={}
+		if key!="":
+			newDict['piece']=key
+		newDict['location']=valElem
+		startState.append(newDict)
 
 startState.sort(key = lambda x:x['location'])
 
@@ -47,82 +47,82 @@ pieceCodes["R"]="rook"
 
 revPieceCodes={}
 for key,val in pieceCodes.items():
-    revPieceCodes[val]=key
+	revPieceCodes[val]=key
 
 def getIndex(positionString):
-    firstChar=positionString[0]
-    secondChar=positionString[1]
-    row=ord(firstChar)-ord('a')
-    col=ord(secondChar)-ord('1')
-    return (row*8+col)
+	firstChar=positionString[0]
+	secondChar=positionString[1]
+	row=ord(firstChar)-ord('a')
+	col=ord(secondChar)-ord('1')
+	return (row*8+col)
 
 def rowIncrement(start,K):
-    index=start+8*K
-    if index<0 or index>=64:
-        index=-1
-    return index
+	index=start+8*K
+	if index<0 or index>=64:
+		index=-1
+	return index
 
 def colIncrement(start,K):
-    index=index+K
-    if index<0 or index>=64:
-        index=-1
-    return index
+	index=index+K
+	if index<0 or index>=64:
+		index=-1
+	return index
 
 def parseMoveHeader(moveString):
-    words=moveString.split()
-    
-    counter=0
-    if "..." in words[0]:
-        firstMove="black"
-    else:
-        firstMove="white"
+	words=moveString.split()
+	
+	counter=0
+	if "..." in words[0]:
+		firstMove="black"
+	else:
+		firstMove="white"
 
-    moves=[]
-    for i,word in enumerate(words):
-        if "." in word:
-            continue
-        elif "..." in word:
-            continue
-        else:
-            moves.append((word,firstMove))
-            if firstMove=="black":
-                firstMove="white"
-            else:
-                firstMove="black"
+	moves=[]
+	for i,word in enumerate(words):
+		if "." in word:
+			continue
+		elif "..." in word:
+			continue
+		else:
+			moves.append((word,firstMove))
+			if firstMove=="black":
+				firstMove="white"
+			else:
+				firstMove="black"
 
-    return moves
+	return moves
 
 def copyState(boardState):
-    copiedState=[]
-    for elem in boardState:
-        newElem={}
-        newElem=copy.deepcopy(elem)
-        copiedState.append(newElem)
-    return copiedState
+	copiedState=[]
+	for elem in boardState:
+		newElem={}
+		newElem=copy.deepcopy(elem)
+		copiedState.append(newElem)
+	return copiedState
 
 def reverseIndex(boardState):
-    boardIndex={}
-    for elem in boardState:
-        if 'piece' in elem:
-            piece=elem['piece']
-            location=elem['location']
-            if piece not in boardIndex:
-                boardIndex[piece]=[]
-            boardIndex[piece].append(location)
-    return boardIndex
+	boardIndex={}
+	for elem in boardState:
+		if 'piece' in elem:
+			piece=elem['piece']
+			location=elem['location']
+			if piece not in boardIndex:
+				boardIndex[piece]=[]
+			boardIndex[piece].append(location)
+	return boardIndex
 
 def movePawn(boardState,boardIndex,moveColor,destination):
-    if moveColor=="white":
-        destinationRow=destination[0]
-        destinationCol=destination[1]
-        #There is only one pawn of any color for a given letter
-        startPoints=boardIndex['white_pawn']
-        if len(startPoints)==1:
-            startPoint=startPoints[0]
-        else:
-            for startPoint in startPoints:
-                startRow=startPoint[0]
-                startCol=startPoint[1]
+	if moveColor=="white":
+		destinationRow=destination[0]
+		destinationCol=destination[1]
+		#There is only one pawn of any color for a given letter
+		startPoints=boardIndex['white_pawn']
+		if len(startPoints)==1:
+			startPoint=startPoints[0]
+		else:
+			for startPoint in startPoints:
+				startRow=startPoint[0]
+				startCol=startPoint[1]
 
 
 
@@ -145,66 +145,66 @@ def movePawn(boardState,boardIndex,moveColor,destination):
 #def enPassant():
 
 def updateState(boardState,boardIndex,move):
-    #Updates both boardState and boardIndex
-    moveColor=move[1]
-    moveString=move[0]
-    
+	#Updates both boardState and boardIndex
+	moveColor=move[1]
+	moveString=move[0]
+	
 
-    if "x" in move:
-        return
-    elif "-" in move:
-        return
-    elif "#" in move:
-        return
-    else:
-        if len(moveString)==2:
-            destination=moveString
-            movePawn(boardState,boardIndex,moveColor,destination)
-        else:
-            return
+	if "x" in move:
+		return
+	elif "-" in move:
+		return
+	elif "#" in move:
+		return
+	else:
+		if len(moveString)==2:
+			destination=moveString
+			movePawn(boardState,boardIndex,moveColor,destination)
+		else:
+			return
 
 
 
 if __name__=="__main__":
-    all_links=pickle.load(open("./saved_files/saved_links.p","r"))
-    extra_links=pickle.load(open("extra_pages.p","r"))
+	all_links=pickle.load(open("./saved_files/saved_links.p","r"))
+	extra_links=pickle.load(open("extra_pages.p","r"))
 
-    for i,link in enumerate(all_links):
-       
-        pageLength=0
-        if extra_links[i]>0:
-            pageLength=1+(extra_links[i]-1)
-        else:
-            pageLength=1
+	for i,link in enumerate(all_links):
 
-        currentState=copyState(startState)
-        currentIndex=reverseIndex(currentState)
-        for pageNo in range(pageLength):
-            if pageNo==0:
-                pageObjName="./outputs/saved"+str(i)+".obj"
-            else:
-                pageObjName="./outputs/saved"+str(i)+"_"+str(pageNo)+".obj"
-            
-            data=None
-            try:
-                #This is one page
-                data=pickle.load(open(pageObjName,"r"))
-            except:
-                break
-            print len(data)
-            for elem in data:
-                moveSequence=elem[0]
-                boardState=elem[1]
-                comment=elem[2]
-                parsedMoveSequence=parseMoveHeader(moveSequence)
-                print moveSequence
-                print parsedMoveSequence
-                print boardState
-                currentState=boardState
-                currentIndex=reverseIndex(boardState)
-                print currentIndex
-                break
+		pageLength=0
+		if extra_links[i]>0:
+			pageLength=1+(extra_links[i]-1)
+		else:
+			pageLength=1
 
-        break
+		currentState=copyState(startState)
+		currentIndex=reverseIndex(currentState)
+		for pageNo in range(pageLength):
+			if pageNo==0:
+				pageObjName="./outputs/saved"+str(i)+".obj"
+			else:
+				pageObjName="./outputs/saved"+str(i)+"_"+str(pageNo)+".obj"
+
+			data=None
+			try:
+				#This is one page
+				data=pickle.load(open(pageObjName,"rb"))
+			except:
+				break
+			print(len(data))
+			for elem in data:
+				moveSequence=elem[0]
+				boardState=elem[1]
+				comment=elem[2]
+				parsedMoveSequence=parseMoveHeader(moveSequence)
+				print(moveSequence)
+				print(parsedMoveSequence)
+				print(boardState)
+				currentState=boardState
+				currentIndex=reverseIndex(boardState)
+				print(currentIndex)
+				break
+
+		break
 
 

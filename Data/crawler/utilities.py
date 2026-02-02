@@ -16,8 +16,8 @@ class Utilities:
 		return soup
 
 	def soupToText(self,ele):
-	   tmp = [s.extract() for s in ele(['style', 'script', '[document]', 'head', 'title'])]
-	   return ele.get_text()
+		tmp = [s.extract() for s in ele(['style', 'script', '[document]', 'head', 'title'])]
+		return ele.get_text()
 
 	def getDivOfClass(self, soup, class_value, recursive=True):
 		mydivs = soup.findAll("div", { "class" : class_value }, recursive=recursive)

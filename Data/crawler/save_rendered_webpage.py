@@ -1,60 +1,59 @@
 
-import sys  
-from PyQt4.QtGui import *  
-from PyQt4.QtCore import *  
-from PyQt4.QtWebKit import *  
-from lxml import html 
+import sys
+from PyQt5.QtGui import *
+from PyQt5.QtCore import *
+from PyQt5.QtWebKit import *
+from lxml import html
 import pickle
 import time
-from PyQt4 import QtGui, QtCore
+from PyQt5 import QtGui, QtCore
 import functools
 import sys
 
 
 import argparse
 def parseArguments():
-    parser = argparse.ArgumentParser()
-    #parser.add_argument("-typ", dest="typ", help="home or subsequent", default='home')
-    parser.add_argument("-i", type=int, dest="i", help="i")
-    parser.add_argument("-num", type=int, dest="num", help="num")
-    args = parser.parse_args()  
-    return args
+	parser = argparse.ArgumentParser()
+	#parser.add_argument("-typ", dest="typ", help="home or subsequent", default='home')
+	parser.add_argument("-i", type=int, dest="i", help="i")
+	parser.add_argument("-num", type=int, dest="num", help="num")
+	args = parser.parse_args()
+	return args
 params = parseArguments()
 #typ = params.typ
 
 
 #Take this class for granted.Just use result of rendering.
-class Render(QWebPage):  
-  def __init__(self, url):  
-	self.app = QApplication(sys.argv)  
-	QWebPage.__init__(self)  
-	self.loadFinished.connect(self._loadFinished)  
-	qurl = QUrl(url)
-	func = functools.partial(self.mainFrame().load, qurl )  
-	timer = QtCore.QTimer()
-	timer.timeout.connect(func)
-	timer.start(10000)
-	self.app.exec_()  
-  
-  def _loadFinished(self, result):  
-	self.frame = self.mainFrame()  
-	self.app.quit()  
+class Render(QWebPage):
+	def __init__(self, url):
+		self.app = QApplication(sys.argv)
+		QWebPage.__init__(self)
+		self.loadFinished.connect(self._loadFinished)
+		qurl = QUrl(url)
+		func = functools.partial(self.mainFrame().load, qurl )
+		timer = QtCore.QTimer()
+		timer.timeout.connect(func)
+		timer.start(10000)
+		self.app.exec_()
+	def _loadFinished(self, result):
+		self.frame = self.mainFrame()
+		self.app.quit()
 
 def save_all():
 	global cur_url
 	global html_doc
-	all_links = pickle.load( open("./saved_files/saved_links.p", "r") )
+	all_links = pickle.load( open("./saved_files/saved_links.p", "rb") )
 	#extra_links = pickle.load( open("extra_pages.p", "r") )
-	print "len(all_links) = ",len(all_links)
+	print("len(all_links) = ",len(all_links))
 	num = sys.argv[1]
 
 	i = params.i
-	print "i = ",type(i)
+	print("i = ",type(i))
 	num = params.num
 	url = all_links[i]
 	if num!=0:
 		url+="&pg="+str(num)
-	print "i, url = ",i,url
+	print("i, url = ",i,url)
 	#This step is important.Converting QString to Ascii for lxml to process
 	#archive_links = html.fromstring(str(result.toAscii()))
 	
@@ -71,12 +70,12 @@ def save_all():
 			fw = open("./saved_files/saved"+str(i)+"_" + str(num) + ".html", "w")
 		fw.write(html_doc)
 		fw.close()
-		print "---- SLEEPING ---- "
+		print("---- SLEEPING ---- ")
 		time.sleep(10)
 	except:
-		print "ERROR!!"
+		print("ERROR!!")
 		error_count+=1
-		print "error_count = ",error_count
+		print("error_count = ",error_count)
 	##if i>4:
 	##	break
 

@@ -12,8 +12,8 @@ max_processes = int(sys.argv[3])
 start = int(sys.argv[1])
 end =   int(sys.argv[2])
 
-all_links = pickle.load( open("./saved_files/saved_links.p", "r") )
-extra_links = pickle.load( open("extra_pages.p", "r") )
+all_links = pickle.load( open("./saved_files/saved_links.p", "rb") )
+extra_links = pickle.load( open("extra_pages.p", "rb") )
 for i, link in enumerate(all_links):
 	if i<start: continue
 	if i>end: break
