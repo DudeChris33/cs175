@@ -85,8 +85,10 @@ if __name__=="__main__":
                     labelDistribution[aspectIndex]=0
                 labelDistribution[aspectIndex]+=1
     print(labelDistribution)
+    print(labelDistribution)
 
     outFile=open(sys.argv[1]+".pseudoLabels","w")
+    print("outfile = ",outFile)
     print("outfile = ",outFile)
 
     for indexedLine in indexedLines:

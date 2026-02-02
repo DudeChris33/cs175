@@ -84,6 +84,7 @@ outFileSingleEn=open("./saved_files/"+sys.argv[1]+".che-eng.single.en","w")
 outFileMultiCheStrings,outFileMultiEnStrings,outFileSingleCheStrings,outFileSingleEnStrings=[],[],[],[]
 
 print(all_links[0])
+print(all_links[0])
 
 extra_links=pickle.load(open("extra_pages.p","r"))
 
