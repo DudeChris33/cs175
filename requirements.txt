@@ -1,2 +1,11 @@
 python-chess
 huggingface-hub
+jupyterlab
+notebook
+datasets
+pandas
+matplotlib
+numpy
+ipywidgets
+transformers
+torch	# pytorch
