@@ -1,0 +1,378 @@
+{"san": "d4", "instruction": "Play d4"}
+{"san": "d4", "instruction": "Move pawn to d4"}
+{"san": "d4", "instruction": "Advance pawn to d4"}
+{"san": "d4", "instruction": "Push the pawn to d4"}
+{"san": "c5", "instruction": "Advance pawn to c5"}
+{"san": "c5", "instruction": "Play c5"}
+{"san": "c5", "instruction": "Move pawn to c5"}
+{"san": "c5", "instruction": "Push the pawn to c5"}
+{"san": "h4", "instruction": "Move pawn to h4"}
+{"san": "h4", "instruction": "Play h4"}
+{"san": "h4", "instruction": "Advance pawn to h4"}
+{"san": "h4", "instruction": "Push the pawn to h4"}
+{"san": "a5", "instruction": "Advance pawn to a5"}
+{"san": "a5", "instruction": "Move pawn to a5"}
+{"san": "a5", "instruction": "Push the pawn to a5"}
+{"san": "a5", "instruction": "Play a5"}
+{"san": "Kd2", "instruction": "King goes to d2"}
+{"san": "Kd2", "instruction": "Develop the king to d2"}
+{"san": "Kd2", "instruction": "Move the king to d2"}
+{"san": "Kd2", "instruction": "Play king to d2"}
+{"san": "Kd2", "instruction": "Play Kd2"}
+{"san": "e6", "instruction": "Advance pawn to e6"}
+{"san": "e6", "instruction": "Push the pawn to e6"}
+{"san": "e6", "instruction": "Play e6"}
+{"san": "e6", "instruction": "Move pawn to e6"}
+{"san": "g3", "instruction": "Advance pawn to g3"}
+{"san": "g3", "instruction": "Move pawn to g3"}
+{"san": "g3", "instruction": "Push the pawn to g3"}
+{"san": "g3", "instruction": "Play g3"}
+{"san": "Qb6", "instruction": "Develop the queen to b6"}
+{"san": "Qb6", "instruction": "Play Qb6"}
+{"san": "Qb6", "instruction": "Move the queen to b6"}
+{"san": "Qb6", "instruction": "Play queen to b6"}
+{"san": "Qb6", "instruction": "Queen goes to b6"}
+{"san": "f4", "instruction": "Advance pawn to f4"}
+{"san": "f4", "instruction": "Play f4"}
+{"san": "f4", "instruction": "Move pawn to f4"}
+{"san": "f4", "instruction": "Push the pawn to f4"}
+{"san": "c4", "instruction": "Push the pawn to c4"}
+{"san": "c4", "instruction": "Move pawn to c4"}
+{"san": "c4", "instruction": "Advance pawn to c4"}
+{"san": "c4", "instruction": "Play c4"}
+{"san": "Bh3", "instruction": "Play bishop to h3"}
+{"san": "Bh3", "instruction": "Develop the bishop to h3"}
+{"san": "Bh3", "instruction": "Move the bishop to h3"}
+{"san": "Bh3", "instruction": "Play Bh3"}
+{"san": "Bh3", "instruction": "Bishop goes to h3"}
+{"san": "Qa7", "instruction": "Move the queen to a7"}
+{"san": "Qa7", "instruction": "Develop the queen to a7"}
+{"san": "Qa7", "instruction": "Play queen to a7"}
+{"san": "Qa7", "instruction": "Play Qa7"}
+{"san": "Qa7", "instruction": "Queen goes to a7"}
+{"san": "h5", "instruction": "Play h5"}
+{"san": "h5", "instruction": "Move pawn to h5"}
+{"san": "h5", "instruction": "Push the pawn to h5"}
+{"san": "h5", "instruction": "Advance pawn to h5"}
+{"san": "Be7", "instruction": "Play Be7"}
+{"san": "Be7", "instruction": "Move the bishop to e7"}
+{"san": "Be7", "instruction": "Develop the bishop to e7"}
+{"san": "Be7", "instruction": "Bishop goes to e7"}
+{"san": "Be7", "instruction": "Play bishop to e7"}
+{"san": "Bf1", "instruction": "Move the bishop to f1"}
+{"san": "Bf1", "instruction": "Bishop goes to f1"}
+{"san": "Bf1", "instruction": "Develop the bishop to f1"}
+{"san": "Bf1", "instruction": "Play bishop to f1"}
+{"san": "Bf1", "instruction": "Play Bf1"}
+{"san": "Ba3", "instruction": "Bishop goes to a3"}
+{"san": "Ba3", "instruction": "Develop the bishop to a3"}
+{"san": "Ba3", "instruction": "Move the bishop to a3"}
+{"san": "Ba3", "instruction": "Play bishop to a3"}
+{"san": "Ba3", "instruction": "Play Ba3"}
+{"san": "g4", "instruction": "Play g4"}
+{"san": "g4", "instruction": "Move pawn to g4"}
+{"san": "g4", "instruction": "Advance pawn to g4"}
+{"san": "g4", "instruction": "Push the pawn to g4"}
+{"san": "b6", "instruction": "Play b6"}
+{"san": "b6", "instruction": "Move pawn to b6"}
+{"san": "b6", "instruction": "Advance pawn to b6"}
+{"san": "b6", "instruction": "Push the pawn to b6"}
+{"san": "g5", "instruction": "Move pawn to g5"}
+{"san": "g5", "instruction": "Play g5"}
+{"san": "g5", "instruction": "Push the pawn to g5"}
+{"san": "g5", "instruction": "Advance pawn to g5"}
+{"san": "Qa6", "instruction": "Play queen to a6"}
+{"san": "Qa6", "instruction": "Move the queen to a6"}
+{"san": "Qa6", "instruction": "Develop the queen to a6"}
+{"san": "Qa6", "instruction": "Queen goes to a6"}
+{"san": "Qa6", "instruction": "Play Qa6"}
+{"san": "Rh4", "instruction": "Play Rh4"}
+{"san": "Rh4", "instruction": "Move the rook to h4"}
+{"san": "Rh4", "instruction": "Play rook to h4"}
+{"san": "Rh4", "instruction": "Develop the rook to h4"}
+{"san": "Rh4", "instruction": "Rook goes to h4"}
+{"san": "f5", "instruction": "Move pawn to f5"}
+{"san": "f5", "instruction": "Advance pawn to f5"}
+{"san": "f5", "instruction": "Play f5"}
+{"san": "f5", "instruction": "Push the pawn to f5"}
+{"san": "b3", "instruction": "Play b3"}
+{"san": "b3", "instruction": "Move pawn to b3"}
+{"san": "b3", "instruction": "Push the pawn to b3"}
+{"san": "b3", "instruction": "Advance pawn to b3"}
+{"san": "c3+", "instruction": "Advance pawn to c3"}
+{"san": "c3+", "instruction": "Push the pawn to c3"}
+{"san": "c3+", "instruction": "Play c3+"}
+{"san": "c3+", "instruction": "Move pawn to c3"}
+{"san": "Kxc3", "instruction": "Capture the piece on c3 with the king"}
+{"san": "Kxc3", "instruction": "Use the king to capture on c3"}
+{"san": "Kxc3", "instruction": "Play Kxc3"}
+{"san": "Kxc3", "instruction": "King captures on c3"}
+{"san": "Kxc3", "instruction": "Take on c3 using the king"}
+{"san": "Qb7", "instruction": "Queen goes to b7"}
+{"san": "Qb7", "instruction": "Play queen to b7"}
+{"san": "Qb7", "instruction": "Develop the queen to b7"}
+{"san": "Qb7", "instruction": "Play Qb7"}
+{"san": "Qb7", "instruction": "Move the queen to b7"}
+{"san": "Rh2", "instruction": "Rook goes to h2"}
+{"san": "Rh2", "instruction": "Move the rook to h2"}
+{"san": "Rh2", "instruction": "Play rook to h2"}
+{"san": "Rh2", "instruction": "Develop the rook to h2"}
+{"san": "Rh2", "instruction": "Play Rh2"}
+{"san": "Na6", "instruction": "Move the knight to a6"}
+{"san": "Na6", "instruction": "Play Na6"}
+{"san": "Na6", "instruction": "Play knight to a6"}
+{"san": "Na6", "instruction": "Develop the knight to a6"}
+{"san": "Na6", "instruction": "Knight goes to a6"}
+{"san": "Rh3", "instruction": "Play Rh3"}
+{"san": "Rh3", "instruction": "Develop the rook to h3"}
+{"san": "Rh3", "instruction": "Move the rook to h3"}
+{"san": "Rh3", "instruction": "Rook goes to h3"}
+{"san": "Rh3", "instruction": "Play rook to h3"}
+{"san": "Ke7", "instruction": "King goes to e7"}
+{"san": "Ke7", "instruction": "Develop the king to e7"}
+{"san": "Ke7", "instruction": "Move the king to e7"}
+{"san": "Ke7", "instruction": "Play king to e7"}
+{"san": "Ke7", "instruction": "Play Ke7"}
+{"san": "Kd2", "instruction": "Develop the king to d2"}
+{"san": "Kd2", "instruction": "Play king to d2"}
+{"san": "Kd2", "instruction": "King goes to d2"}
+{"san": "Kd2", "instruction": "Move the king to d2"}
+{"san": "Kd2", "instruction": "Play Kd2"}
+{"san": "b5", "instruction": "Move pawn to b5"}
+{"san": "b5", "instruction": "Push the pawn to b5"}
+{"san": "b5", "instruction": "Advance pawn to b5"}
+{"san": "b5", "instruction": "Play b5"}
+{"san": "d5", "instruction": "Push the pawn to d5"}
+{"san": "d5", "instruction": "Play d5"}
+{"san": "d5", "instruction": "Advance pawn to d5"}
+{"san": "d5", "instruction": "Move pawn to d5"}
+{"san": "exd5", "instruction": "Use the pawn to capture on d5"}
+{"san": "exd5", "instruction": "Play exd5"}
+{"san": "exd5", "instruction": "Pawn captures on d5"}
+{"san": "exd5", "instruction": "Take on d5 using the pawn"}
+{"san": "exd5", "instruction": "Capture the piece on d5 with the pawn"}
+{"san": "Rd3", "instruction": "Play rook to d3"}
+{"san": "Rd3", "instruction": "Move the rook to d3"}
+{"san": "Rd3", "instruction": "Develop the rook to d3"}
+{"san": "Rd3", "instruction": "Rook goes to d3"}
+{"san": "Rd3", "instruction": "Play Rd3"}
+{"san": "Kd8", "instruction": "Develop the king to d8"}
+{"san": "Kd8", "instruction": "Move the king to d8"}
+{"san": "Kd8", "instruction": "Play Kd8"}
+{"san": "Kd8", "instruction": "Play king to d8"}
+{"san": "Kd8", "instruction": "King goes to d8"}
+{"san": "Rc3", "instruction": "Develop the rook to c3"}
+{"san": "Rc3", "instruction": "Play rook to c3"}
+{"san": "Rc3", "instruction": "Rook goes to c3"}
+{"san": "Rc3", "instruction": "Move the rook to c3"}
+{"san": "Rc3", "instruction": "Play Rc3"}
+{"san": "a4", "instruction": "Advance pawn to a4"}
+{"san": "a4", "instruction": "Play a4"}
+{"san": "a4", "instruction": "Move pawn to a4"}
+{"san": "a4", "instruction": "Push the pawn to a4"}
+{"san": "Bh3", "instruction": "Play bishop to h3"}
+{"san": "Bh3", "instruction": "Develop the bishop to h3"}
+{"san": "Bh3", "instruction": "Move the bishop to h3"}
+{"san": "Bh3", "instruction": "Bishop goes to h3"}
+{"san": "Bh3", "instruction": "Play Bh3"}
+{"san": "Bxc1+", "instruction": "Play Bxc1+"}
+{"san": "Bxc1+", "instruction": "Use the bishop to capture on c1"}
+{"san": "Bxc1+", "instruction": "Take on c1 using the bishop"}
+{"san": "Bxc1+", "instruction": "Capture the piece on c1 with the bishop"}
+{"san": "Bxc1+", "instruction": "Bishop captures on c1"}
+{"san": "Kd3", "instruction": "Move the king to d3"}
+{"san": "Kd3", "instruction": "Play Kd3"}
+{"san": "Kd3", "instruction": "Play king to d3"}
+{"san": "Kd3", "instruction": "Develop the king to d3"}
+{"san": "Kd3", "instruction": "King goes to d3"}
+{"san": "Qc6", "instruction": "Play queen to c6"}
+{"san": "Qc6", "instruction": "Develop the queen to c6"}
+{"san": "Qc6", "instruction": "Move the queen to c6"}
+{"san": "Qc6", "instruction": "Queen goes to c6"}
+{"san": "Qc6", "instruction": "Play Qc6"}
+{"san": "e4", "instruction": "Play e4"}
+{"san": "e4", "instruction": "Move pawn to e4"}
+{"san": "e4", "instruction": "Push the pawn to e4"}
+{"san": "e4", "instruction": "Advance pawn to e4"}
+{"san": "Nb4+", "instruction": "Develop the knight to b4"}
+{"san": "Nb4+", "instruction": "Move the knight to b4"}
+{"san": "Nb4+", "instruction": "Play knight to b4"}
+{"san": "Nb4+", "instruction": "Play Nb4+"}
+{"san": "Nb4+", "instruction": "Knight goes to b4"}
+{"san": "Ke2", "instruction": "Move the king to e2"}
+{"san": "Ke2", "instruction": "Play king to e2"}
+{"san": "Ke2", "instruction": "Play Ke2"}
+{"san": "Ke2", "instruction": "Develop the king to e2"}
+{"san": "Ke2", "instruction": "King goes to e2"}
+{"san": "Bd2", "instruction": "Develop the bishop to d2"}
+{"san": "Bd2", "instruction": "Bishop goes to d2"}
+{"san": "Bd2", "instruction": "Play Bd2"}
+{"san": "Bd2", "instruction": "Play bishop to d2"}
+{"san": "Bd2", "instruction": "Move the bishop to d2"}
+{"san": "Rf3", "instruction": "Rook goes to f3"}
+{"san": "Rf3", "instruction": "Move the rook to f3"}
+{"san": "Rf3", "instruction": "Play rook to f3"}
+{"san": "Rf3", "instruction": "Play Rf3"}
+{"san": "Rf3", "instruction": "Develop the rook to f3"}
+{"san": "d4", "instruction": "Push the pawn to d4"}
+{"san": "d4", "instruction": "Advance pawn to d4"}
+{"san": "d4", "instruction": "Move pawn to d4"}
+{"san": "d4", "instruction": "Play d4"}
+{"san": "Nc3", "instruction": "Play Nc3"}
+{"san": "Nc3", "instruction": "Develop the knight to c3"}
+{"san": "Nc3", "instruction": "Move the knight to c3"}
+{"san": "Nc3", "instruction": "Knight goes to c3"}
+{"san": "Nc3", "instruction": "Play knight to c3"}
+{"san": "Be3", "instruction": "Bishop goes to e3"}
+{"san": "Be3", "instruction": "Move the bishop to e3"}
+{"san": "Be3", "instruction": "Play bishop to e3"}
+{"san": "Be3", "instruction": "Play Be3"}
+{"san": "Be3", "instruction": "Develop the bishop to e3"}
+{"san": "Rf1", "instruction": "Play rook to f1"}
+{"san": "Rf1", "instruction": "Rook goes to f1"}
+{"san": "Rf1", "instruction": "Develop the rook to f1"}
+{"san": "Rf1", "instruction": "Move the rook to f1"}
+{"san": "Rf1", "instruction": "Play Rf1"}
+{"san": "Na6", "instruction": "Knight goes to a6"}
+{"san": "Na6", "instruction": "Develop the knight to a6"}
+{"san": "Na6", "instruction": "Play Na6"}
+{"san": "Na6", "instruction": "Play knight to a6"}
+{"san": "Na6", "instruction": "Move the knight to a6"}
+{"san": "Nxb5", "instruction": "Play Nxb5"}
+{"san": "Nxb5", "instruction": "Use the knight to capture on b5"}
+{"san": "Nxb5", "instruction": "Take on b5 using the knight"}
+{"san": "Nxb5", "instruction": "Knight captures on b5"}
+{"san": "Nxb5", "instruction": "Capture the piece on b5 with the knight"}
+{"san": "g6", "instruction": "Move pawn to g6"}
+{"san": "g6", "instruction": "Play g6"}
+{"san": "g6", "instruction": "Advance pawn to g6"}
+{"san": "g6", "instruction": "Push the pawn to g6"}
+{"san": "hxg6", "instruction": "Play hxg6"}
+{"san": "hxg6", "instruction": "Pawn captures on g6"}
+{"san": "hxg6", "instruction": "Capture the piece on g6 with the pawn"}
+{"san": "hxg6", "instruction": "Take on g6 using the pawn"}
+{"san": "hxg6", "instruction": "Use the pawn to capture on g6"}
+{"san": "d3+", "instruction": "Advance pawn to d3"}
+{"san": "d3+", "instruction": "Push the pawn to d3"}
+{"san": "d3+", "instruction": "Play d3+"}
+{"san": "d3+", "instruction": "Move pawn to d3"}
+{"san": "Ke1", "instruction": "Play Ke1"}
+{"san": "Ke1", "instruction": "Move the king to e1"}
+{"san": "Ke1", "instruction": "Play king to e1"}
+{"san": "Ke1", "instruction": "King goes to e1"}
+{"san": "Ke1", "instruction": "Develop the king to e1"}
+{"san": "Nc5", "instruction": "Develop the knight to c5"}
+{"san": "Nc5", "instruction": "Move the knight to c5"}
+{"san": "Nc5", "instruction": "Play knight to c5"}
+{"san": "Nc5", "instruction": "Knight goes to c5"}
+{"san": "Nc5", "instruction": "Play Nc5"}
+{"san": "Na3", "instruction": "Play Na3"}
+{"san": "Na3", "instruction": "Play knight to a3"}
+{"san": "Na3", "instruction": "Knight goes to a3"}
+{"san": "Na3", "instruction": "Develop the knight to a3"}
+{"san": "Na3", "instruction": "Move the knight to a3"}
+{"san": "Bd2+", "instruction": "Bishop goes to d2"}
+{"san": "Bd2+", "instruction": "Play bishop to d2"}
+{"san": "Bd2+", "instruction": "Develop the bishop to d2"}
+{"san": "Bd2+", "instruction": "Move the bishop to d2"}
+{"san": "Bd2+", "instruction": "Play Bd2+"}
+{"san": "Kxd2", "instruction": "Take on d2 using the king"}
+{"san": "Kxd2", "instruction": "Use the king to capture on d2"}
+{"san": "Kxd2", "instruction": "King captures on d2"}
+{"san": "Kxd2", "instruction": "Capture the piece on d2 with the king"}
+{"san": "Kxd2", "instruction": "Play Kxd2"}
+{"san": "Na6", "instruction": "Develop the knight to a6"}
+{"san": "Na6", "instruction": "Play Na6"}
+{"san": "Na6", "instruction": "Move the knight to a6"}
+{"san": "Na6", "instruction": "Knight goes to a6"}
+{"san": "Na6", "instruction": "Play knight to a6"}
+{"san": "gxh7", "instruction": "Play gxh7"}
+{"san": "gxh7", "instruction": "Take on h7 using the pawn"}
+{"san": "gxh7", "instruction": "Pawn captures on h7"}
+{"san": "gxh7", "instruction": "Use the pawn to capture on h7"}
+{"san": "gxh7", "instruction": "Capture the piece on h7 with the pawn"}
+{"san": "Nb4", "instruction": "Knight goes to b4"}
+{"san": "Nb4", "instruction": "Play Nb4"}
+{"san": "Nb4", "instruction": "Play knight to b4"}
+{"san": "Nb4", "instruction": "Develop the knight to b4"}
+{"san": "Nb4", "instruction": "Move the knight to b4"}
+{"san": "Nf3", "instruction": "Develop the knight to f3"}
+{"san": "Nf3", "instruction": "Play Nf3"}
+{"san": "Nf3", "instruction": "Play knight to f3"}
+{"san": "Nf3", "instruction": "Move the knight to f3"}
+{"san": "Nf3", "instruction": "Knight goes to f3"}
+{"san": "Qxc2+", "instruction": "Use the queen to capture on c2"}
+{"san": "Qxc2+", "instruction": "Queen captures on c2"}
+{"san": "Qxc2+", "instruction": "Play Qxc2+"}
+{"san": "Qxc2+", "instruction": "Take on c2 using the queen"}
+{"san": "Qxc2+", "instruction": "Capture the piece on c2 with the queen"}
+{"san": "Ke3", "instruction": "Develop the king to e3"}
+{"san": "Ke3", "instruction": "Move the king to e3"}
+{"san": "Ke3", "instruction": "Play king to e3"}
+{"san": "Ke3", "instruction": "King goes to e3"}
+{"san": "Ke3", "instruction": "Play Ke3"}
+{"san": "Ke8", "instruction": "Play Ke8"}
+{"san": "Ke8", "instruction": "King goes to e8"}
+{"san": "Ke8", "instruction": "Develop the king to e8"}
+{"san": "Ke8", "instruction": "Play king to e8"}
+{"san": "Ke8", "instruction": "Move the king to e8"}
+{"san": "Qc1", "instruction": "Play queen to c1"}
+{"san": "Qc1", "instruction": "Queen goes to c1"}
+{"san": "Qc1", "instruction": "Move the queen to c1"}
+{"san": "Qc1", "instruction": "Develop the queen to c1"}
+{"san": "Qc1", "instruction": "Play Qc1"}
+{"san": "Qh2", "instruction": "Develop the queen to h2"}
+{"san": "Qh2", "instruction": "Queen goes to h2"}
+{"san": "Qh2", "instruction": "Move the queen to h2"}
+{"san": "Qh2", "instruction": "Play queen to h2"}
+{"san": "Qh2", "instruction": "Play Qh2"}
+{"san": "Nd4", "instruction": "Play Nd4"}
+{"san": "Nd4", "instruction": "Knight goes to d4"}
+{"san": "Nd4", "instruction": "Move the knight to d4"}
+{"san": "Nd4", "instruction": "Develop the knight to d4"}
+{"san": "Nd4", "instruction": "Play knight to d4"}
+{"san": "Qb2", "instruction": "Move the queen to b2"}
+{"san": "Qb2", "instruction": "Play queen to b2"}
+{"san": "Qb2", "instruction": "Queen goes to b2"}
+{"san": "Qb2", "instruction": "Play Qb2"}
+{"san": "Qb2", "instruction": "Develop the queen to b2"}
+{"san": "Bg4", "instruction": "Play bishop to g4"}
+{"san": "Bg4", "instruction": "Develop the bishop to g4"}
+{"san": "Bg4", "instruction": "Play Bg4"}
+{"san": "Bg4", "instruction": "Bishop goes to g4"}
+{"san": "Bg4", "instruction": "Move the bishop to g4"}
+{"san": "Qg2", "instruction": "Play queen to g2"}
+{"san": "Qg2", "instruction": "Play Qg2"}
+{"san": "Qg2", "instruction": "Queen goes to g2"}
+{"san": "Qg2", "instruction": "Move the queen to g2"}
+{"san": "Qg2", "instruction": "Develop the queen to g2"}
+{"san": "Qe1", "instruction": "Move the queen to e1"}
+{"san": "Qe1", "instruction": "Develop the queen to e1"}
+{"san": "Qe1", "instruction": "Play queen to e1"}
+{"san": "Qe1", "instruction": "Play Qe1"}
+{"san": "Qe1", "instruction": "Queen goes to e1"}
+{"san": "Ra7", "instruction": "Play rook to a7"}
+{"san": "Ra7", "instruction": "Develop the rook to a7"}
+{"san": "Ra7", "instruction": "Move the rook to a7"}
+{"san": "Ra7", "instruction": "Rook goes to a7"}
+{"san": "Ra7", "instruction": "Play Ra7"}
+{"san": "Qb1", "instruction": "Move the queen to b1"}
+{"san": "Qb1", "instruction": "Develop the queen to b1"}
+{"san": "Qb1", "instruction": "Play queen to b1"}
+{"san": "Qb1", "instruction": "Play Qb1"}
+{"san": "Qb1", "instruction": "Queen goes to b1"}
+{"san": "Nh6", "instruction": "Play knight to h6"}
+{"san": "Nh6", "instruction": "Move the knight to h6"}
+{"san": "Nh6", "instruction": "Develop the knight to h6"}
+{"san": "Nh6", "instruction": "Play Nh6"}
+{"san": "Nh6", "instruction": "Knight goes to h6"}
+{"san": "bxa4", "instruction": "Take on a4 using the pawn"}
+{"san": "bxa4", "instruction": "Pawn captures on a4"}
+{"san": "bxa4", "instruction": "Capture the piece on a4 with the pawn"}
+{"san": "bxa4", "instruction": "Play bxa4"}
+{"san": "bxa4", "instruction": "Use the pawn to capture on a4"}
+{"san": "Qxg4", "instruction": "Play Qxg4"}
+{"san": "Qxg4", "instruction": "Take on g4 using the queen"}
+{"san": "Qxg4", "instruction": "Use the queen to capture on g4"}
+{"san": "Qxg4", "instruction": "Capture the piece on g4 with the queen"}
+{"san": "Qxg4", "instruction": "Queen captures on g4"}
