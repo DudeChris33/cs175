@@ -5,4 +5,4 @@ Lib/
 Scripts/
 share/
 pyvenv.cfg
-*.jsonl
+# synthetic_chess_dataset.jsonl
