@@ -9,3 +9,7 @@ numpy
 ipywidgets
 transformers
 torch	# pytorch
+boto3
+scikit-learn
+SpeechRecognition
+pyaudio
