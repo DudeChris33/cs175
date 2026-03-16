@@ -13,3 +13,4 @@ boto3
 scikit-learn
 SpeechRecognition
 pyaudio
+accelerate

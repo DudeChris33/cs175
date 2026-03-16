@@ -1,0 +1,848 @@
+[
+	{
+		"move": "e4",
+		"desc": "advance the king's pawn two squares",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Nf3",
+		"desc": "bring out the king's knight",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop the queen's knight",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "push the d pawn two squares",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Nf3",
+		"desc": "bring out the knight toward the king",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Bc4",
+		"desc": "develop the bishop to c4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "push the d pawn forward",
+		"fen": "None",
+		"prev": "[]"
+	},
+
+	{
+		"move": "Bxc6",
+		"desc": "capture the knight on c6",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Ba4",
+		"desc": "retreat the bishop to a4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "dxc4",
+		"desc": "take the pawn on c4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "e6",
+		"desc": "support the center with the e pawn",
+		"fen": "None",
+		"prev": "[]"
+	},
+
+	{
+		"move": "a8=Q",
+		"desc": "promote the pawn to a queen",
+		"fen": "8/P7/8/8/8/8/8/4K2k w - - 0 1",
+		"prev": "[]"
+	},
+	{
+		"move": "a8=N",
+		"desc": "underpromote to a knight",
+		"fen": "8/P7/8/8/8/8/8/4K2k w - - 0 1",
+		"prev": "[]"
+	},
+
+	{
+		"move": "O-O",
+		"desc": "castle kingside",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "O-O-O",
+		"desc": "castle queenside",
+		"fen": "None",
+		"prev": "[]"
+	},
+
+	{
+		"move": "Rae1",
+		"desc": "move the correct rook to e1",
+		"fen": "4r1k1/1p3ppp/8/8/8/8/PPPP1PPP/R3R1K1 b - - 0 1",
+		"prev": "[]"
+	},
+	{
+		"move": "Nbd2",
+		"desc": "bring the other knight to d2",
+		"fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 1",
+		"prev": "[]"
+	},
+
+	{
+		"move": "exf6",
+		"desc": "take the pawn en passant",
+		"fen": "rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3",
+		"prev": "[]"
+	},
+
+	{
+		"move": "Qxf7#",
+		"desc": "checkmate the king on f7",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Bb5+",
+		"desc": "give a check with the bishop",
+		"fen": "None",
+		"prev": "[]"
+	},
+
+	{
+		"move": "d4",
+		"desc": "Play d4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "Move pawn to d4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "Advance pawn to d4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "Push the pawn to d4",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "c5",
+		"desc": "Advance pawn to c5",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "c5",
+		"desc": "Play c5",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "c5",
+		"desc": "Move pawn to c5",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "c5",
+		"desc": "Push the pawn to c5",
+		"fen": "None",
+		"prev": "[]"
+	},
+
+	{
+		"move": "Nxc7+",
+		"desc": "Capture the pawn on the queenside with my knight, centralizing it while eliminating a defender.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "Nxb5",
+		"desc": "Capture the bishop on the queenside with my knight, removing a key attacker near my position.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "Ne3",
+		"desc": "Bring my knight back toward the center to reinforce key central squares and improve coordination.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "Ng3",
+		"desc": "Retreat my knight to a safer square closer to my king, consolidating the position.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "g5",
+		"desc": "Advance my kingside pawn to challenge the opposing queen and gain space with tempo.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "h6",
+		"desc": "Push my advanced rook pawn further, increasing pressure on the kingside structure.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "a3",
+		"desc": "Advance my a-pawn one square to begin expanding on the queenside.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "b3",
+		"desc": "Advance my b-pawn one square to support potential queenside expansion.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "c3",
+		"desc": "Push my c-pawn forward to open lines and contest central control.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+	{
+		"move": "Re1",
+		"desc": "Centralize my rook by sliding it to the open central file, increasing pressure and coordination.",
+		"fen": "rnb1k1nr/p2p1ppp/5q2/1pbN1N1P/4PBP1/3P1Q2/PPP5/R4KR1 b kq - 4 17",
+		"prev": "[]"
+	},
+
+	{
+		"move": "e4",
+		"desc": "advance the king pawn two squares",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "play the queen pawn two squares",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "Nf3",
+		"desc": "develop the king knight",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "c4",
+		"desc": "move the queen bishop pawn",
+		"fen": "None",
+		"prev": "[]"
+	},
+	{
+		"move": "d4",
+		"desc": "push the d pawn two squares",
+		"fen": "None",
+		"prev": "['e4']"
+	},
+	{
+		"move": "Nf3",
+		"desc": "develop the king knight toward the center",
+		"fen": "None",
+		"prev": "['e4', 'e5']"
+	},
+	{
+		"move": "Nf3",
+		"desc": "develop the king knight",
+		"fen": "None",
+		"prev": "['e4', 'c5']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop the queen knight",
+		"fen": "None",
+		"prev": "['d4', 'd5']"
+	},
+	{
+		"move": "c4",
+		"desc": "play the queen pawn support move",
+		"fen": "None",
+		"prev": "['d4', 'Nf6']"
+	},
+	{
+		"move": "Nf3",
+		"desc": "develop the king knight",
+		"fen": "None",
+		"prev": "['c4']"
+	},
+
+	{
+		"move": "Bb5",
+		"desc": "develop the bishop to b5",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6']"
+	},
+	{
+		"move": "d4",
+		"desc": "strike the center with d pawn",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3']"
+	},
+	{
+		"move": "dxc4",
+		"desc": "accept the gambit",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'c4']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop the knight",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'g6']"
+	},
+	{
+		"move": "d4",
+		"desc": "play the d pawn two squares",
+		"fen": "None",
+		"prev": "['e4', 'e6']"
+	},
+	{
+		"move": "d4",
+		"desc": "advance the d pawn",
+		"fen": "None",
+		"prev": "['e4', 'c6']"
+	},
+	{
+		"move": "Bc5",
+		"desc": "develop the bishop aggressively",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bc4']"
+	},
+	{
+		"move": "e6",
+		"desc": "defend the pawn with e pawn",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'Nf3']"
+	},
+	{
+		"move": "dxe5",
+		"desc": "capture the pawn",
+		"fen": "None",
+		"prev": "['c4', 'e5']"
+	},
+	{
+		"move": "d4",
+		"desc": "strike the center",
+		"fen": "None",
+		"prev": "['Nf3', 'd5']"
+	},
+
+	{
+		"move": "a6",
+		"desc": "attack the e4 pawn",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bb5']"
+	},
+	{
+		"move": "d4",
+		"desc": "develop the d pawn",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'd6']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop the queen knight",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'e6']"
+	},
+	{
+		"move": "exd5",
+		"desc": "capture the pawn on d5",
+		"fen": "None",
+		"prev": "['e4', 'd5']"
+	},
+	{
+		"move": "Nc6",
+		"desc": "develop the knight",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Bc4']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop the knight to c3",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'c4', 'e6']"
+	},
+	{
+		"move": "Nc6",
+		"desc": "develop the knight",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nc3']"
+	},
+	{
+		"move": "g3",
+		"desc": "play g3 to fianchetto",
+		"fen": "None",
+		"prev": "['Nf3', 'Nf6']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop the knight",
+		"fen": "None",
+		"prev": "['c4', 'c5']"
+	},
+	{
+		"move": "c4",
+		"desc": "play the c pawn forward",
+		"fen": "None",
+		"prev": "['d4', 'g6']"
+	},
+
+	{
+		"move": "O-O",
+		"desc": "castle kingside",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Bc5']"
+	},
+	{
+		"move": "d4",
+		"desc": "play d4",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'Nc6']"
+	},
+	{
+		"move": "Bg7",
+		"desc": "develop bishop to g7",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'g6', 'Nc3']"
+	},
+	{
+		"move": "d4",
+		"desc": "play d4",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'd6']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'c4', 'c6']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'c6', 'd4', 'd5']"
+	},
+	{
+		"move": "d5",
+		"desc": "play d5",
+		"fen": "None",
+		"prev": "['c4', 'e6', 'Nc3']"
+	},
+	{
+		"move": "Bg4",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['Nf3', 'd5', 'g3']"
+	},
+	{
+		"move": "Nc6",
+		"desc": "defend the pawn",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Qh5']"
+	},
+	{
+		"move": "Qh5",
+		"desc": "attack f7",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Bc4', 'Nc6']"
+	},
+
+	{
+		"move": "dxe5",
+		"desc": "capture pawn",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'e5']"
+	},
+	{
+		"move": "cxd4",
+		"desc": "capture on d4",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'd6', 'd4']"
+	},
+	{
+		"move": "Ba4",
+		"desc": "retreat bishop",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'c3']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'Bf4']"
+	},
+	{
+		"move": "Bg7",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['c4', 'g6', 'Nc3']"
+	},
+	{
+		"move": "e4",
+		"desc": "play e4",
+		"fen": "None",
+		"prev": "['Nf3', 'c5']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'd6', 'd4']"
+	},
+	{
+		"move": "e6",
+		"desc": "play e6",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'Bg5']"
+	},
+	{
+		"move": "exd4",
+		"desc": "capture pawn",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'd4']"
+	},
+
+	{
+		"move": "Nxd4",
+		"desc": "recapture with knight",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'd6', 'd4', 'cxd4']"
+	},
+	{
+		"move": "e3",
+		"desc": "recover pawn",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'c4', 'dxc4']"
+	},
+	{
+		"move": "O-O",
+		"desc": "castle kingside",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Nf6']"
+	},
+	{
+		"move": "d4",
+		"desc": "push d pawn",
+		"fen": "None",
+		"prev": "['c4', 'e5', 'Nc3', 'Nf6']"
+	},
+	{
+		"move": "Bg2",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['Nf3', 'd5', 'g3', 'c5']"
+	},
+	{
+		"move": "Nc3",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'e6', 'd4', 'd5']"
+	},
+	{
+		"move": "d5",
+		"desc": "play d5",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'c5']"
+	},
+	{
+		"move": "cxd4",
+		"desc": "capture pawn",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'Nc6', 'd4']"
+	},
+	{
+		"move": "Nc6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nc3']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'Nc3']"
+	},
+
+	{
+		"move": "O-O",
+		"desc": "castle kingside",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'Nf6']"
+	},
+	{
+		"move": "d4",
+		"desc": "play d4",
+		"fen": "None",
+		"prev": "['c4', 'e6', 'Nc3', 'd5']"
+	},
+	{
+		"move": "g6",
+		"desc": "play g6",
+		"fen": "None",
+		"prev": "['Nf3', 'Nf6', 'c4']"
+	},
+	{
+		"move": "f4",
+		"desc": "play f4",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nc3', 'Nc6']"
+	},
+	{
+		"move": "e4",
+		"desc": "play e4",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'Bg5', 'e6']"
+	},
+	{
+		"move": "Bg7",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['c4', 'g6', 'g3']"
+	},
+	{
+		"move": "Bg4",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['Nf3', 'd5', 'e3']"
+	},
+	{
+		"move": "exf4",
+		"desc": "capture pawn",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'f4']"
+	},
+	{
+		"move": "e3",
+		"desc": "play e3",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'Bf4', 'Nf6']"
+	},
+	{
+		"move": "d4",
+		"desc": "play d4",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'e6']"
+	},
+
+	{
+		"move": "Bd7",
+		"desc": "block with bishop",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'd6', 'Bb5+']"
+	},
+	{
+		"move": "e4",
+		"desc": "play e4",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'g6', 'Nc3', 'Bg7']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Bc5', 'c3']"
+	},
+	{
+		"move": "d4",
+		"desc": "play d4",
+		"fen": "None",
+		"prev": "['c4', 'c6']"
+	},
+	{
+		"move": "Bg7",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['Nf3', 'g6', 'g3']"
+	},
+	{
+		"move": "Qxd5",
+		"desc": "recapture with queen",
+		"fen": "None",
+		"prev": "['e4', 'd5', 'exd5']"
+	},
+	{
+		"move": "e3",
+		"desc": "play e3",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'e6', 'Nc3', 'Bb4']"
+	},
+	{
+		"move": "cxb4",
+		"desc": "capture pawn",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'b4']"
+	},
+	{
+		"move": "Nc6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['c4', 'e5', 'g3']"
+	},
+	{
+		"move": "Nc6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['Nf3', 'c5', 'e4']"
+	},
+
+	{
+		"move": "Nxd4",
+		"desc": "capture with knight",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'd4', 'exd4']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'c4', 'c6', 'Nc3']"
+	},
+	{
+		"move": "g6",
+		"desc": "play g6",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'Nc6', 'Bb5']"
+	},
+	{
+		"move": "d4",
+		"desc": "play d4",
+		"fen": "None",
+		"prev": "['c4', 'g6', 'Nc3', 'Bg7']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "capture pawn",
+		"fen": "None",
+		"prev": "['Nf3', 'd5', 'd4']"
+	},
+	{
+		"move": "Qe7",
+		"desc": "defend f7",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Bc4', 'Bc5', 'Qh5']"
+	},
+	{
+		"move": "Bg7",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'g6', 'g3']"
+	},
+	{
+		"move": "f4",
+		"desc": "play f4",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nc3', 'd6']"
+	},
+	{
+		"move": "d5",
+		"desc": "play d5",
+		"fen": "None",
+		"prev": "['c4', 'e6', 'g3']"
+	},
+	{
+		"move": "Bg2",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['Nf3', 'Nf6', 'c4', 'g6']"
+	},
+
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4']"
+	},
+	{
+		"move": "Nf3",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['d4', 'd5', 'c4', 'e6', 'Nc3', 'Be7']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'd6', 'd4', 'cxd4', 'Nxd4']"
+	},
+	{
+		"move": "g3",
+		"desc": "play g3",
+		"fen": "None",
+		"prev": "['c4', 'e5', 'Nc3', 'Nc6']"
+	},
+	{
+		"move": "Bg2",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['Nf3', 'd5', 'g3', 'Nf6']"
+	},
+	{
+		"move": "Bb4",
+		"desc": "pin the knight",
+		"fen": "None",
+		"prev": "['e4', 'e6', 'd4', 'd5', 'Nc3']"
+	},
+	{
+		"move": "b6",
+		"desc": "play b6",
+		"fen": "None",
+		"prev": "['d4', 'Nf6', 'c4', 'e6', 'Nf3']"
+	},
+	{
+		"move": "Be3",
+		"desc": "develop bishop",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'Nc6', 'd4', 'cxd4', 'Nxd4', 'g6']"
+	},
+	{
+		"move": "d6",
+		"desc": "play d6",
+		"fen": "None",
+		"prev": "['c4', 'g6', 'Nc3', 'Bg7', 'd4']"
+	},
+	{
+		"move": "Nf6",
+		"desc": "develop knight",
+		"fen": "None",
+		"prev": "['e4', 'c5', 'Nf3', 'd6', 'Bc4']"
+	}
+]
