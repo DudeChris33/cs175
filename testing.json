@@ -27,44 +27,44 @@
 		"move": "Nf3",
 		"desc": "bring out the knight toward the king",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5']"
 	},
 	{
 		"move": "Bc4",
 		"desc": "develop the bishop to c4",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5']"
 	},
 	{
 		"move": "d4",
 		"desc": "push the d pawn forward",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5']"
 	},
 
 	{
 		"move": "Bxc6",
 		"desc": "capture the knight on c6",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6']"
 	},
 	{
 		"move": "Ba4",
 		"desc": "retreat the bishop to a4",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6']"
 	},
 	{
 		"move": "dxc4",
 		"desc": "take the pawn on c4",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['d4', 'd5', 'c4']"
 	},
 	{
 		"move": "e6",
 		"desc": "support the center with the e pawn",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['d4', 'd5', 'c4']"
 	},
 
 	{
@@ -84,13 +84,13 @@
 		"move": "O-O",
 		"desc": "castle kingside",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Bc5']"
 	},
 	{
 		"move": "O-O-O",
 		"desc": "castle queenside",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['d4', 'd5', 'Nc3', 'Nf6', 'Bg5', 'a6', 'Qd2', 'h6']"
 	},
 
 	{
@@ -117,13 +117,13 @@
 		"move": "Qxf7#",
 		"desc": "checkmate the king on f7",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e5', 'Bc4', 'Nc6', 'Qf3', 'd6']"
 	},
 	{
 		"move": "Bb5+",
 		"desc": "give a check with the bishop",
 		"fen": "None",
-		"prev": "[]"
+		"prev": "['e4', 'e6', 'd4', 'd5', 'e5', 'c5', 'c3', 'Nc6', 'Nf3', 'Qb6', 'Bd3', 'Bd7', 'O-O', 'cxd4', 'cxd4']"
 	},
 
 	{
@@ -1039,5 +1039,12 @@
 	{"move": "g4", "desc": "Expanding on the kingside to harass the black knight and gain space.","fen":"None","prev":"[]"},
 	{"move": "f4", "desc": "Gaining center space and opening the f-file for an offensive maneuver.","fen":"None","prev":"[]"},
 	{"move": "b4", "desc": "Advancing the b-pawn to gain space and challenge black's queenside control.","fen":"None","prev":"[]"},
-	{"move": "a4", "desc": "Gaining space on the queenside and establishing control over the a-file.","fen":"None","prev":"[]"}
+	{"move": "a4", "desc": "Gaining space on the queenside and establishing control over the a-file.","fen":"None","prev":"[]"},
+
+	{
+		"move": "bxa8=Q'",
+		"desc": "take the rook and promote the pawn",
+		"fen": "None",
+		"prev": "['c4', 'Nf6', 'c5', 'Ng8', 'c6', 'Nf6', 'cxb7', 'Ng8']"
+	}
 ]
